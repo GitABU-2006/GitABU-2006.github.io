@@ -1,0 +1,188 @@
+*{ margin:0; padding:0; font-family:sans-serif; }
+
+body{
+    background: #f1f3f6;
+}
+
+.nav{
+    height: 68px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 25px;
+    
+}
+
+
+.logo img{
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+.textBox input{
+    height: 40px;
+    width: 500px;
+    background: #edf4ff;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    padding: 0 15px;
+    outline: none;
+    margin-right: 30px;
+}
+
+
+.login{
+    position: relative;
+    margin-right: 30px;
+}
+
+.login-btn{
+    border:none;
+    background:none;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+
+.dropdown{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    box-shadow:0 0 5px rgba(0,0,0,0.3);
+    width:200px;
+    
+}
+
+.login:hover .dropdown{
+    display:block;
+}
+
+.dropdown a{
+    display:block;
+    padding:8px 15px;
+    color:#333;
+    text-decoration:none;
+    font-size:14px;
+}
+
+
+
+.cart{
+    display:flex;
+    align-items:center;
+    margin-right:25px;
+    font-size:15px;
+    line-height: 40px;
+} 
+.seller{
+    display:flex;
+    align-items:center;
+    margin-right:25px;
+    font-size:15px;
+    line-height: 40px;
+}
+.cart img{
+    height: 20px;
+    margin-right: 6px;
+}
+
+.seller img {
+    height: 20px;
+    margin-right: 6px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.service{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 25px;
+    justify-content: space-around;
+    margin: 20px 15px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 550;
+    
+
+}
+
+.service img{
+    height: 70px;
+}
+.service span{
+    display: block;
+}
+
+.service a{
+    text-decoration: none;
+    color: rgb(75, 73, 73);
+}
+
+.banner {
+    height: 215px;
+    display: flex;
+    background: #fff;
+    /* padding: 0 25px; */
+    margin: 10px 15px;
+    
+}
+.banner img{
+    display: flex;
+    align-content:flex-start;
+    height: 190px;
+    width: 100%;
+    margin :0 0 10px;
+}
+
+.deals{
+    height: 250px;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    /* padding: 0 25px; */
+    margin: 10px 15px;
+    width: 1000px;
+    color: black;
+    justify-content: space-around;
+}
+
+.deals h1{
+    padding: 10px;
+    font-size: 21px;
+    color: rgb(39, 38, 38);
+}
+
+.deals img{
+    height: 120px;
+}
+
+.deals a{
+    text-decoration: none;
+    color: black;
+}
+
+.deals span{
+    
+    display: block;
+    
+}
+
+.deals p{
+    font-weight: 600;
+}
+
+.deal img{
+    align-content: center;
+}
+.phone1{
+    margin: 10px;
+}
