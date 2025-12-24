@@ -316,7 +316,6 @@ body{
 .tItem{
     height: 280px;
     width: px;
-    /* border: 2px solid black; */
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
