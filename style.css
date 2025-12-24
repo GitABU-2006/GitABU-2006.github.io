@@ -1,4 +1,4 @@
-*{ margin:0; padding:0; font-family:sans-serif; }
+*{ margin:0; padding:0; font-family:sans-serif;  }
 
 body{
     background: #f1f3f6;
@@ -143,8 +143,16 @@ body{
     margin :0 0 10px;
 }
 
+.section{
+    display: flex;
+    gap: 10px;              
+    /* margin: 10px 15px; */
+    align-items: stretch;
+    
+}
+
 .deals{
-    height: 280px;
+    height: 290px;
     display: flex;
     background: #fff;
     flex-direction: column;
@@ -191,4 +199,130 @@ body{
     margin: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.poster{
+    height: 280px;
+    /* width: px; */
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+
+.poster img{
+    height: 290px;
+    width: 200px;
+}
+
+.furniture{
+    height: 290px;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    
+    margin: 10px 15px;
+    margin-bottom: 20px;
+    color: black;
+    justify-content: space-around;
+}
+.furniture h1{
+    padding: 10px;
+    font-size: 19px;
+    color: rgb(39, 38, 38);
+}
+
+.furniture img{
+    height: 100px;
+}
+
+.furniture a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.furniture span{
+    
+    display: block;
+    text-align: center;
+    
+    
+}
+
+.furniture p{
+    font-weight: 600;
+}
+
+.furniture img{
+    align-content: center;
+}
+.fItem{
+    height: 280px;
+    width: px;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fItem img{
+    height: 120px;
+    gap: 20px;
+}
+.tdop{
+    height: 290px;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    
+    margin: 10px 15px;
+    
+    color: black;
+    justify-content: space-around;
+}
+.tdop h1{
+    padding: 10px;
+    font-size: 19px;
+    color: rgb(39, 38, 38);
+}
+
+.tdop img{
+    height: 100px;
+}
+
+.tdop a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.tdop span{
+    
+    display: block;
+    text-align: center;
+    
+}
+
+.tdop p{
+    font-weight: 600;
+}
+
+.tdop img{
+    align-content: center;
+}
+.tItem{
+    height: 280px;
+    width: px;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tItem img{
+    height: 120px;
+    gap: 20px;
 }
